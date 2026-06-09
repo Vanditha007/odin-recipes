@@ -1,0 +1,118 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    position: sticky;
+    top: 0;
+}
+nav .logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    align-self: center;
+}
+nav .nav-links{
+    display: flex;
+    gap: 20px;
+}
+nav .nav-links a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+    align-self: center;
+}
+nav .nav-button{
+    padding: 10px 20px;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 50vh;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/072/215/123/non_2x/minimalist-interior-with-warm-lighting-shadow-play-and-decorative-elements-free-photo.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #220a0a;
+}
+main p{
+    font-size: 48px;
+    margin: 0;
+}
+main .s{
+    font-size: 20px;
+    margin: 10px 0;
+}
+main .main-button{
+    padding: 10px 20px;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;}
+    
+    
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0px;
+    margin-left: 50px;
+}
+.about img{
+    width: 40%;
+    border-radius: 50px;
+    padding: 40px;
+}
+.about .about-text{
+    font-size: 15px;
+    color: #333333;
+    width: 50%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+section.about .about-text .title{
+    font-size: 14px;
+    color: #3b1a10;
+    font-family: 'Poppins', sans-serif;
+    
+}
+section.about .about-text .description{
+    font-size: 30px;
+    font-weight: bold;
+    color: #333333;
+    height: 20px;
+    margin-bottom: 40px;
+    font-family: 'Playfair Display', serif;
+}
+.about .about-button{
+    padding: 10px 20px;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section.Why{
+    background-color: rgb(236, 235, 220);
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.Why .why-content{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
