@@ -1,0 +1,7 @@
+virtual dom: 
+introduced by facebook(meta).
+introduced react framework.
+helps to update a child alone without intefering other child tags and parent.
+but while updating parent, entire system goes down.
+javascript can be used to update date and time by using span tag.
+javascript can be used to store data from a form.
