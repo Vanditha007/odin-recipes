@@ -104,15 +104,48 @@ section.about .about-text .description{
     border-radius: 5px;
     cursor: pointer;
 }
-section.Why{
-    background-color: rgb(236, 235, 220);
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
+.features{
+    background-color: #f4f1eb;
+    text-align: center;
+    padding: 80px 20px;
 }
-.Why .why-content{
-    align-items: center;
+
+.small-title{
+    letter-spacing: 4px;
+    font-size: 14px;
+    color: #7a6c5d;
+}
+
+.features h2{
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+.feature-container{
     display: flex;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature{
+    width: 300px;
+    text-align: center;
+}
+
+.feature img{
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #ebe6de;
+}
+
+.feature h3{
+    margin-top: 20px;
+    color: #333;
+}
+
+.feature p{
+    color: #666;
+    line-height: 1.6;
 }
