@@ -44,6 +44,7 @@ main{
     background-size: cover;
     background-position: center;
     color: #220a0a;
+    margin-top: 20px;
 }
 main p{
     font-size: 48px;
