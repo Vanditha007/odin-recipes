@@ -94,12 +94,12 @@ main .main-button{
     margin-bottom: 2px;
 }
 section.about .about-text .description{
-    margin-top: 5px;
+    margin-top: 8px;
     font-size: 28px;
     font-weight: bold;
     color: #333333;
     height: 5px;
-    padding-bottom: 35px;
+    padding-bottom: 40px;
     font-family: 'Playfair Display', serif;
     word-spacing: 10% ;
 
